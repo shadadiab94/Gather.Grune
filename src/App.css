@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  overflow-x: visible;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.PageWrapper {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+
+.Page {
+  width: calc(100vw - 180px);
+  height: 100%;
+  display: flex;
+  margin-left: 180px;
+}
+
+@media screen and (max-width: 1000px) {
+  .Page {
+    width: calc(100vw - 200px);
+    margin-left: 200px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .Page {
+    flex-direction: column;
+    margin-left: 0;
+    width: 100%;
+  }
+
+  * {
+    overflow-x: visible;
+  }
+}
