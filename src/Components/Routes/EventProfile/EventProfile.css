@@ -4,6 +4,9 @@
   padding: 0;
   position: relative;
   width: 100%;
+  margin-left: 5%;
+  margin-right: 0;
+  box-sizing: border-box;
 }
 
 .event-profile::before {
@@ -28,6 +31,7 @@
   overflow: hidden;
   position: relative;
   z-index: 1;
+  box-sizing: border-box;
 }
 
 /* Header */
@@ -91,6 +95,7 @@
 .event-content {
   padding: 40px;
   width: 100%;
+  box-sizing: border-box;
 }
 
 /* Image section */
