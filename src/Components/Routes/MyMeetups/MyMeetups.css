@@ -1,3 +1,15 @@
+.my-meetups-container {
+  padding: 30px;
+  background: white;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.my-meetups-content {
+  width: 100%;
+  margin: 0;
+}
+
 .events-container {
   display: flex;
   flex-wrap: wrap;

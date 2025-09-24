@@ -16,16 +16,8 @@ export default function MyMeetups() {
   }
 
   return (
-    <div style={{ 
-      padding: '30px', 
-      background: 'white',
-      minHeight: '100vh',
-      width: '100%'
-    }}>
-      <div style={{
-        width: '100%',
-        margin: '0'
-      }}>
+    <div className="my-meetups-container">
+      <div className="my-meetups-content">
         <h1 style={{ 
           fontSize: '2.5rem', 
           fontWeight: '800', 
