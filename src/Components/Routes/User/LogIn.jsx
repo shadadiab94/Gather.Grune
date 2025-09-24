@@ -38,7 +38,7 @@ export default function LogIn() {
           password
         );
   
-        navigate("/Gather/Dashboard");
+        navigate("/Gather/Discover");
       } catch (error) {
         if (error.code === "auth/email-already-in-use") {
           setError("This email is already registered.");
